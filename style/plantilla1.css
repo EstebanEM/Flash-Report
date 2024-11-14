@@ -4,7 +4,7 @@
 
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif ;
     margin: 20px;
     background-color: #fffdfd;
     color: #333;
@@ -30,11 +30,11 @@ h2 {
     padding: 11px;
     border-radius: 10px;
 }
-.fecha{
+.fecha {
     color:  rgb(255, 255, 255); 
     border: 1px solid #ffffff;
     border-radius: 10px;
-    padding: 5px;
+    padding: 9px;
 }
 .torre {
     width: 48px;
@@ -44,8 +44,13 @@ h2 {
     display: flex;
     justify-content: space-between;
 }
+.var {
+    display: flex;
+    justify-content: center;
+}
 .section {
     font-family: "Roboto", sans-serif;
+    padding-top: 30px;
     font-weight: 500;
     font-style: normal;
     background-color: #FFFFFF;
@@ -56,9 +61,10 @@ h2 {
     /*box-shadow: 1px 1px 11px #73a5bd;*/
 }
 .section-title {
+    text-align: center;
     font-weight: bold;
     margin-bottom: 8px;
-    color: #06115B;
+    color: #ffffff;
 }
 
 .data {
